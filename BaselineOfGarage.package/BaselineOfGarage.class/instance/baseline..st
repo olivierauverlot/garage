@@ -10,6 +10,11 @@ baseline: spec
 					className: #ConfigurationOfJSON;
 					versionString: '1.1';
 					repository: 'http://smalltalkhub.com/mc/PharoExtras/JSON/main/' ].
+		spec
+			baseline: 'P3' with: [ 
+				spec
+					loads: #( );
+					repository: 'github://svenvc/P3'].	
 		spec 
 			package: 'Garage';
 			package: 'Garage-Mysql' with: [ spec requires: #('Garage' ) ];
